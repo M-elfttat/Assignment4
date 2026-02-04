@@ -1,1 +1,17 @@
-{ "questions": [] }
+{
+    "questions": [
+      {
+        "topic": "Git",
+        "question": "What does Git primarily help with?",
+        "options": [
+          "Version control",
+          "Database management",
+          "Web hosting",
+          "UI design"
+        ],
+        "answer": "Version control",
+        "explanation": "Git is a distributed version control system."
+      }
+    ]
+  }
+  
