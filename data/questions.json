@@ -1,17 +1,264 @@
 {
-    "questions": [
-      {
-        "topic": "Git",
-        "question": "What does Git primarily help with?",
-        "options": [
-          "Version control",
-          "Database management",
-          "Web hosting",
-          "UI design"
-        ],
-        "answer": "Version control",
-        "explanation": "Git is a distributed version control system."
-      }
-    ]
-  }
-  
+  "questions": [
+    {
+      "id": "Q1",
+      "topic": "DevOps Culture",
+      "question": "What is the main goal of DevOps culture?",
+      "options": [
+        "Separate development and operations",
+        "Improve collaboration and communication",
+        "Reduce automation",
+        "Focus only on deployment"
+      ],
+      "answerIndex": 1,
+      "explanation": "DevOps focuses on collaboration and shared responsibility."
+    },
+    {
+      "id": "Q2",
+      "topic": "DevOps Culture",
+      "question": "Which principle is central to DevOps?",
+      "options": [
+        "Silos",
+        "Manual processes",
+        "Continuous improvement",
+        "Isolated teams"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps encourages continuous improvement."
+    },
+    {
+      "id": "Q3",
+      "topic": "Version Control",
+      "question": "What is Git?",
+      "options": [
+        "A database",
+        "A distributed version control system",
+        "A cloud provider",
+        "A testing tool"
+      ],
+      "answerIndex": 1,
+      "explanation": "Git is a DVCS used to track code changes."
+    },
+    {
+      "id": "Q4",
+      "topic": "Version Control",
+      "question": "What does a Git branch represent?",
+      "options": [
+        "A backup",
+        "A separate line of development",
+        "A remote server",
+        "A tag"
+      ],
+      "answerIndex": 1,
+      "explanation": "Branches allow parallel development."
+    },
+    {
+      "id": "Q5",
+      "topic": "Plan with DevOps",
+      "question": "Which tool is commonly used for planning in DevOps?",
+      "options": [
+        "Jira",
+        "Photoshop",
+        "Excel only",
+        "Notepad"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jira is widely used for agile planning."
+    },
+    {
+      "id": "Q6",
+      "topic": "Plan with DevOps",
+      "question": "Why is planning important in DevOps?",
+      "options": [
+        "To delay releases",
+        "To align teams and priorities",
+        "To reduce communication",
+        "To remove feedback"
+      ],
+      "answerIndex": 1,
+      "explanation": "Planning aligns work with business goals."
+    },
+    {
+      "id": "Q7",
+      "topic": "Continuous Integration",
+      "question": "What is the primary goal of Continuous Integration?",
+      "options": [
+        "Deploy to production automatically",
+        "Frequently integrate code changes",
+        "Eliminate testing",
+        "Avoid branches"
+      ],
+      "answerIndex": 1,
+      "explanation": "CI detects integration issues early."
+    },
+    {
+      "id": "Q8",
+      "topic": "Continuous Integration",
+      "question": "Which action triggers a CI pipeline?",
+      "options": [
+        "Code commit",
+        "System shutdown",
+        "User login",
+        "Server reboot"
+      ],
+      "answerIndex": 0,
+      "explanation": "CI pipelines run on commits."
+    },
+    {
+      "id": "Q9",
+      "topic": "Continuous Delivery",
+      "question": "What does Continuous Delivery ensure?",
+      "options": [
+        "Software is always deployable",
+        "Software deploys automatically",
+        "No testing is needed",
+        "Manual releases only"
+      ],
+      "answerIndex": 0,
+      "explanation": "CD keeps software in a deployable state."
+    },
+    {
+      "id": "Q10",
+      "topic": "Continuous Delivery",
+      "question": "What is required before deploying in CD?",
+      "options": [
+        "Manual approval",
+        "Automated tests passing",
+        "No reviews",
+        "Code deletion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Passing tests ensure quality."
+    },
+    {
+      "id": "Q11",
+      "topic": "Continuous Deployment",
+      "question": "How is Continuous Deployment different from Delivery?",
+      "options": [
+        "It deploys automatically",
+        "It skips testing",
+        "It uses no pipelines",
+        "It requires downtime"
+      ],
+      "answerIndex": 0,
+      "explanation": "Continuous Deployment deploys without manual approval."
+    },
+    {
+      "id": "Q12",
+      "topic": "Continuous Deployment",
+      "question": "Which environment is affected most?",
+      "options": [
+        "Development",
+        "Testing",
+        "Production",
+        "Local"
+      ],
+      "answerIndex": 2,
+      "explanation": "Deployments go directly to production."
+    },
+    {
+      "id": "Q13",
+      "topic": "Infrastructure as Code",
+      "question": "What is Infrastructure as Code?",
+      "options": [
+        "Manual server setup",
+        "Managing infrastructure using code",
+        "Writing UI code",
+        "Database queries"
+      ],
+      "answerIndex": 1,
+      "explanation": "IaC automates infrastructure provisioning."
+    },
+    {
+      "id": "Q14",
+      "topic": "Infrastructure as Code",
+      "question": "Which tool supports IaC?",
+      "options": [
+        "Terraform",
+        "GitHub",
+        "Chrome",
+        "Slack"
+      ],
+      "answerIndex": 0,
+      "explanation": "Terraform is a popular IaC tool."
+    },
+    {
+      "id": "Q15",
+      "topic": "Version Control",
+      "question": "What does git pull do?",
+      "options": [
+        "Fetch and merge changes",
+        "Delete branches",
+        "Create commits",
+        "Push code"
+      ],
+      "answerIndex": 0,
+      "explanation": "git pull updates local branches."
+    },
+    {
+      "id": "Q16",
+      "topic": "Version Control",
+      "question": "Where are pull requests created?",
+      "options": [
+        "Local machine",
+        "GitHub",
+        "IDE only",
+        "Terminal only"
+      ],
+      "answerIndex": 1,
+      "explanation": "PRs are created on GitHub."
+    },
+    {
+      "id": "Q17",
+      "topic": "DevOps Culture",
+      "question": "What encourages faster feedback?",
+      "options": [
+        "Automation",
+        "Manual testing",
+        "Long releases",
+        "Isolation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Automation speeds feedback loops."
+    },
+    {
+      "id": "Q18",
+      "topic": "Continuous Integration",
+      "question": "Which tool is used for CI?",
+      "options": [
+        "Jenkins",
+        "Word",
+        "Excel",
+        "Paint"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jenkins is a CI server."
+    },
+    {
+      "id": "Q19",
+      "topic": "Plan with DevOps",
+      "question": "What helps track DevOps work?",
+      "options": [
+        "Backlogs",
+        "Emails only",
+        "Phone calls",
+        "Sticky notes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Backlogs organize work."
+    },
+    {
+      "id": "Q20",
+      "topic": "Infrastructure as Code",
+      "question": "What is a benefit of IaC?",
+      "options": [
+        "Consistency",
+        "More manual work",
+        "Slower setup",
+        "Less automation"
+      ],
+      "answerIndex": 0,
+      "explanation": "IaC ensures consistent environments."
+    }
+  ]
+}
