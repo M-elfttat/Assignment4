@@ -1,9 +1,8 @@
 # DevOps Quiz App
 Local simulation of Student A and Student B.
 
-## Features
-- Large DevOps question bank
-- Multiple DevOps topics
+- Interactive quiz interface
+- Immediate feedback on answers
 
 
 ## Question Format
